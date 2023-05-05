@@ -19,7 +19,7 @@ Ces paramètres gouvernent la personnalisation de la conception et de la mise en
 #### Personnaliser et prévisualiser
 
 
-Ce bouton vous amène à un éditeur de code de modèle très avancé, avec un générateur de prévisualisation en direct. Les instructions pour ces fonctionnalités se trouvent sous <a href="https://invoiceninja.github.io/docs/custom-fields/">Personnalisation des PDF</a>. Vous pouvez prévisualiser les modèles de conception de facture ici, avant d'en sélectionner un que vous souhaitez utiliser en permanence.
+Ce bouton vous amène à un éditeur de code de modèle très avancé, avec un générateur de prévisualisation en direct. Les instructions pour ces fonctionnalités se trouvent sous <a href="https://invoiceninja.github.io/docs/fr_ca/custom-fields/">Personnalisation des PDF</a>. Vous pouvez prévisualiser les modèles de conception de facture ici, avant d'en sélectionner un que vous souhaitez utiliser en permanence.
 
 
 #### Paramètres de modèle
@@ -578,4 +578,4 @@ Activez les notifications par courriel pour l'utilisateur pour un certain nombre
 
 
 
-<x-next url=/docs/custom-fields>Personnalisation PDF</x-next>
+<x-next url=/docs/fr_ca/custom-fields>Personnalisation PDF</x-next>
