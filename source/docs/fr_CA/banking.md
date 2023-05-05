@@ -3,13 +3,13 @@ extends: _layouts.user_guide
 section: content
 ---
 
-# Services bancaires
+# Institutions bancaires
 
 ## Intégrations bancaires avec Yodlee
 
 Pour les utilisateurs d'entreprise sur notre plateforme hébergée, nous avons intégré [Yodlee](https://www.yodlee.com), une plateforme leader en agrégation de données.
 
-Yodlee s'intègre avec la plupart des grandes banques mondiales, vous permettant de lier vos comptes bancaires à Invoice Ninja pour importer vos transactions bancaires à des fins de rapprochement.
+Yodlee s'intègre avec la plupart des grandes institutions bancaires mondiales, vous permettant de lier vos comptes bancaires à Invoice Ninja pour importer vos transactions bancaires à des fins de conciliation.
 
 <div class="video_container">
 <iframe class="video" src="https://www.youtube.com/embed/_sIfIr7QUHA" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -20,16 +20,16 @@ Yodlee s'intègre avec la plupart des grandes banques mondiales, vous permettant
 ![alt text](/assets/images/banking/bank_connect.png "Liez vos comptes bancaires à Invoice Ninja")
 
 ```bash
-Paramètres > Comptes bancaires > Connecter
+Paramètres > Institutions bancaires > Connecter
 ```
 
-En cliquant sur le bouton de connexion, une nouvelle fenêtre de navigateur s'ouvrira et se connectera à Yodlee. À partir de cet écran, vous pourrez rechercher votre banque et vous connecter à votre compte bancaire.
+En cliquant sur le bouton de connexion, une nouvelle fenêtre de navigateur s'ouvrira et se connectera à Yodlee. À partir de cet écran, vous pourrez rechercher votre institution bancaire et vous connecter à votre compte bancaire.
 
-![alt text](/assets/images/banking/bank_yodlee_connect.png "Trouvez votre banque et connectez-vous")
+![alt text](/assets/images/banking/bank_yodlee_connect.png "Trouvez votre institution et connectez-vous")
 
-Une fois que vous vous êtes authentifié avec succès auprès de votre banque, vous pourrez sélectionner les comptes que vous souhaitez lier à Invoice Ninja. Lorsque cela est terminé, cliquez sur Enregistrer et Terminer.
+Une fois que vous vous êtes authentifié avec succès auprès de votre institution bancaire, vous pourrez sélectionner les comptes que vous souhaitez lier à Invoice Ninja. Une fois terminé, cliquez sur Enregistrer et Terminer.
 
-Yodlee vous donnera la possibilité d'ajouter d'autres comptes bancaires de différentes banques avant de quitter.
+Yodlee vous donnera la possibilité d'ajouter d'autres comptes bancaires de différentes institutions bancaires avant de quitter.
 
 ![alt text](/assets/images/banking/auto_sync.png "Synchronisation automatique")
 
@@ -161,4 +161,4 @@ Lors de la création d'une règle, plusieurs options sont disponibles.
 
 - Valeur | La valeur attribuée par l'utilisateur utilisée pour comparer.
 
-<x-next url=/docs/clients>Clients</x-next>
+<x-next url=/docs/fr_ca/clients>Clients</x-next>
