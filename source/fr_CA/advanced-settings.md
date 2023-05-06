@@ -155,16 +155,16 @@ Chacun de ces 5 types de champs peut être attribué jusqu'à 4 champs personnal
 * **Utilisateurs** - Ces champs personnalisés ajoutent des détails à vos enregistrements de compte utilisateur pour les utilisateurs enregistrés du portail d'administration. Ce serait un bon endroit pour mettre les détails des employés si vous prévoyez d'utiliser le système de tâches ou si vous avez de nombreux utilisateurs à gérer.
 
 
-<h2 id=generated_numbers>Nombres générés</h2>
+<h2 id=generated_numbers>Numéros générés</h2>
 
 
-Les nombres générés contiennent une collection de variables qui permettent une personnalisation très fine des nombres générés pour chaque entité de l'application.
+Les numéros générés contiennent une collection de variables qui permettent une personnalisation très fine des numéros générés pour chaque entité de l'application.
 
 
 ### Paramètres
 
 
-![alt text](/assets/images/settings/generated_numbers/generated_numbers_settings_pane.png "Generated Numbers Settings")
+![alt text](/assets/fr_CA/images/advanced-settings/numeros_generes_parametres.jpg "Paramètres des numéros générés")
 
 
 L'onglet des
@@ -176,7 +176,7 @@ L'onglet des
 ### Clients, Factures, Factures récurrentes, Paiements, etc.
 
 
-![alt text](/assets/images/settings/generated_numbers/generated_numbers_client.png "Numéros générés pour les clients")
+![alt text](/assets/fr_CA/images/advanced-settings/numeros_generes_clients.jpg "Numéros générés pour les clients")
 
 
 Les différents enregistrements d'entités disponibles auxquels s'appliquent les numéros générés sont tous répertoriés avec leurs propres onglets en haut, pour que vous puissiez personnaliser les comportements de la génération de numéros pour chaque type d'entité respectif.
