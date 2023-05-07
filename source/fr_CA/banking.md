@@ -4,13 +4,13 @@ section: content
 locale: fr_CA
 ---
 
-# Services bancaires
+# Comptes bancaires
 
 ## Intégrations bancaires avec Yodlee
 
 Pour les utilisateurs d'entreprise sur notre plateforme hébergée, nous avons intégré [Yodlee](https://www.yodlee.com), une plateforme leader en agrégation de données.
 
-Yodlee s'intègre avec la plupart des grandes banques mondiales, vous permettant de lier vos comptes bancaires à Invoice Ninja pour importer vos transactions bancaires à des fins de rapprochement.
+Yodlee s'intègre avec la plupart des grandes institutions bancaires mondiales, vous permettant de lier vos comptes bancaires à Invoice Ninja pour importer vos transactions bancaires à des fins de conciliation.
 
 <div class="video_container">
 <iframe class="video" src="https://www.youtube.com/embed/_sIfIr7QUHA" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -24,13 +24,13 @@ Yodlee s'intègre avec la plupart des grandes banques mondiales, vous permettant
 Paramètres > Comptes bancaires > Connecter
 ```
 
-En cliquant sur le bouton de connexion, une nouvelle fenêtre de navigateur s'ouvrira et se connectera à Yodlee. À partir de cet écran, vous pourrez rechercher votre banque et vous connecter à votre compte bancaire.
+En cliquant sur le bouton de connexion, une nouvelle fenêtre de navigateur s'ouvrira et se connectera à Yodlee. À partir de cet écran, vous pourrez rechercher votre institution bancaire et vous connecter à votre compte bancaire.
 
-![alt text](/assets/images/banking/bank_yodlee_connect.png "Trouvez votre banque et connectez-vous")
+![alt text](/assets/images/banking/bank_yodlee_connect.png "Trouvez votre institution bancaire et connectez-vous")
 
-Une fois que vous vous êtes authentifié avec succès auprès de votre banque, vous pourrez sélectionner les comptes que vous souhaitez lier à Invoice Ninja. Lorsque cela est terminé, cliquez sur Enregistrer et Terminer.
+Une fois que vous vous êtes authentifié avec succès auprès de votre institution bancaire, vous pourrez sélectionner les comptes que vous souhaitez lier à Invoice Ninja. Lorsque cela est terminé, cliquez sur Enregistrer et Terminer.
 
-Yodlee vous donnera la possibilité d'ajouter d'autres comptes bancaires de différentes banques avant de quitter.
+Yodlee vous donnera la possibilité d'ajouter d'autres comptes bancaires de différentes institution bancaire avant de quitter.
 
 ![alt text](/assets/images/banking/auto_sync.png "Synchronisation automatique")
 
@@ -40,12 +40,12 @@ Astuce: Si vous souhaitez qu'Invoice Ninja synchronise automatiquement vos trans
 
 ## Importer des relevés bancaires
 
-Si vous préférez importer vos données à l'aide de fichiers .csv de votre banque, vous pouvez les télécharger directement dans Invoice Ninja.
+Si vous préférez importer vos données à l'aide de fichiers .csv de votre institution bancaire, vous pouvez les télécharger directement dans Invoice Ninja.
 
 Vous pouvez les importer à partir de
 
 ```bash
-Paramètres > Importer | Exporter > Transactions bancaires
+Paramètres > Importer / Exporter > Transactions
 ```
 
 Vous devrez avoir créé un compte bancaire avant cela, afin que les transactions soient liées au bon compte bancaire.
@@ -134,11 +134,11 @@ Vous pouvez modifier et créer des règles à partir de cette page, il suffit de
 Lors de la création d'une règle, il y a plusieurs options à considérer :
 
 - Nom | Le nom de la règle
-- Faire correspondre toutes les règles | Ce paramètre signifie que pour que la règle corresponde, toutes les sous-règles doivent être présentes pour que la transaction soit appariée ou convertie.
+- Doit répondre à toutes les règles | Ce paramètre signifie que pour que la règle s'applique, toutess les règles qui la composent doivent être satisfaites pour que la transaction soit appariée ou convertie.
 - Conversion automatique | Indicateur booléen qui définit quoi faire lorsqu'une règle de transaction correspond. Si activé, la transaction sera convertie en facture ou en dépense.
 - Règles | contient une ou plusieurs règles configurables.
-- Fournisseur | Le sélecteur de fournisseur. Lorsqu'un fournisseur est sélectionné, ce fournisseur sera attribué à la dépense de la transaction.
-- Catégorie | Le sélecteur de catégorie de dépenses. Lorsqu'une catégorie est sélectionnée, cette catégorie sera attribuée à la dépense de la transaction.
+- Fournisseur | Lorsqu'un fournisseur est sélectionné, ce fournisseur sera associé à la dépense de la transaction.
+- Catégorie | Lorsqu'une catégorie est sélectionnée, cette catégorie sera attribuée à la dépense de la transaction.
 
 ![alt text](/assets/images/banking/rule_spec.png "Spécifications de la règle")
 

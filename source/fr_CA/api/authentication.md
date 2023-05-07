@@ -4,11 +4,11 @@ section: content
 locale: fr_CA
 ---
 
-# Authentication
+# Authentification
 
-## Base login
+## Essentiels pour la connexion
 
-The minimum required fields for authenticating against the API is an email and password
+Le minimum requis pour l'authentification à l'API sont les champs courriel et mot de passe
 
 ```
 curl -X POST 'http://ninja.test/api/v1/login' \
@@ -16,8 +16,7 @@ curl -X POST 'http://ninja.test/api/v1/login' \
 -d '{"email":"demo@invoiceninja.com","password":"Password0"}' \
 -H "X-Requested-With: XMLHttpRequest";
 ```
-
-The return response is a CompanyUser object which contains child relations of the user / company and its associated entities
+La réponse de retour est un objet CompanyUser qui contient des relations enfant de ,utilisateur / entreprise et ses entités associées
 
 [truncated response]
 
@@ -94,29 +93,29 @@ The return response is a CompanyUser object which contains child relations of th
 
 ```
 
-You are able to append some query parameters which can include additional information in the response.
+Vous pouvez ajouter des paramètres de requêtes qui peuvent inclure des informations additionnelles dans la réponse.
 
 ```
 http://ninja.test/api/login?include_static=true
 ```
 
-This will include a data array (These are datetime / payment terms and other "static" data that is used in the selectors of the administrator panel) located [here](https://github.com/invoiceninja/invoiceninja/blob/v5-stable/app/Utils/Statics.php)
+Ceci permettra d'inclure un étalage (array) de données (dateheure / conditions de paiement et autres données "statique" qui sont utilisées dans les sélecteurs du panneau d'administration) situé [ici](https://github.com/invoiceninja/invoiceninja/blob/v5-stable/app/Utils/Statics.php)
 
 ## X-API-SECRET header
 
-To improve the resilience of the login route, you may also append an additional header
+Pour améliorer la résilience du routage de la connexion, vous pourriez aussi ajouter une en-tête additionnelle
 
 ```
 X-API-SECRET
 ```
 
-This value would need to match the .env variable
+Cette valeur devrait correspondre à la variable dans .env
 
 ```
 API_SECRET
 ```
 
-A full example of a login using the X-API-SECRET would be as follows:
+Voici un exemple d'une connexion utilisant X-API-SECRET:
 
 
 ```
